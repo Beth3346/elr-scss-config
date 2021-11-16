@@ -23,6 +23,12 @@ $gray: #666;
 $light-blue: lighten($blue, 15%);
 $lightest-blue: #dfecf9;
 
+$background-color: $lightest-gray;
+$main-background: $white;
+$background-light: $lightest-blue;
+
+$primary-gradient: linear-gradient($light-blue, $seafoam);
+
 // *: fonts
 $roboto: "Roboto", sans-serif;
 $noto: "Noto Sans", sans-serif;
