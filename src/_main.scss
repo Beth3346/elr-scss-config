@@ -1,1 +1,119 @@
-@import 'src/default-config'
+// Variables
+
+// screen sizes
+
+// *: colors
+$white: #fff;
+$eggshell: #f2f2f2;
+$lightest-gray: #eee;
+$light-gray: #ddd;
+// $gray: #ddd;
+$seafoam: #3fb8af;
+$blue: #1976d2;
+$dark-blue: #005ebd;
+$salmon: #ff9e9d;
+$pink: #f81190;
+$light-pink: #ffc3e4;
+$magenta: #bf10a0;
+$orange: #e0432b;
+$taupe: #dad8a7;
+$black: #333;
+$dark-gray: #999;
+$gray: #666;
+$light-blue: lighten($blue, 15%);
+$lightest-blue: #dfecf9;
+
+// *: fonts
+$roboto: "Roboto", sans-serif;
+$noto: "Noto Sans", sans-serif;
+$nunito: "Nunito", sans-serif;
+$playfair: "Playfair Display", serif;
+$source-code: "Source Code Pro", monospace;
+$noto-serif: "Noto Serif", serif;
+// font faces
+
+$sans-font: $roboto;
+$serif-font: $noto-serif;
+$rounded-font: $nunito;
+$mono-font: $source-code;
+
+// typography
+
+$heading-font: $sans-font;
+$code-font: $mono-font;
+$article-font: $noto;
+$callout-font: $serif-font;
+
+$base-fontsize: 16px;
+$font-family: $sans-font;
+$h1-fontsize: 3rem;
+$h2-fontsize: 2.25rem;
+$h3-fontsize: 1.5rem;
+$h4-fontsize: 1.125rem;
+$h5-fontsize: 1rem;
+$h6-fontsize: 0.875rem;
+$line-height: 1.6;
+
+$text-color: $black;
+$text-color-light: $background-light;
+$hero-unit-background: $background-light;
+
+$link-color: $blue;
+
+$primary-color-dark: $dark-blue;
+$primary-color: $blue;
+$primary-color-light: $light-blue;
+$primary-text-light: $background-light;
+
+$secondary-color: $pink;
+$secondary-color-dark: darken($secondary-color, 5%);
+$secondary-color-light: desaturate(lighten($secondary-color, 10%), 30%);
+
+$tertiary-color: $seafoam;
+
+$danger-color: #af100d;
+$danger-background-color: #fddbdb;
+
+$warning-color: #ca9626;
+$warning-background-color: #fff2da;
+
+$success-color: #337234;
+$success-background-color: #dcf3dc;
+
+$info-color: #1daaf0;
+
+$muted-color: $gray;
+$muted-background-color: $eggshell;
+
+$border: 1px solid $light-gray;
+$border-dark: 1px solid $text-color;
+$border-light: 1px solid $lightest-gray;
+$border-primary: 1px solid $primary-color;
+$border-success: 1px solid $success-color;
+$border-danger: 1px solid $danger-color;
+$border-warning: 1px solid $warning-color;
+$border-muted: 1px solid $muted-color;
+
+$content-width: 1400px;
+$max-width: 1400px;
+$desktop-width: 1200px;
+$landscape-width: 1024px;
+$tablet-width: 768px;
+$landscape-min-width: $tablet-width + 1;
+$tablet-max-width: $tablet-width - 1;
+$mobile-width: 568px;
+
+// $shadow: 0 2px 5px rgba(0, 0, 0, .2);
+$shadow: 1px 1px 5px rgba(0, 0, 0, 0.1), -1px -1px 5px rgba(0, 0, 0, 0.1);
+$button-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+$text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+$focus-shadow: 0 0 2px $link-color;
+$border-radius: 5px;
+$header-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+
+$instagram-color: #5380a6;
+$google-plus-color: #dd4b38;
+$twitter-color: #25aae1;
+$pinterest-color: #ce2128;
+$facebook-color: #3c5b9a;
+$linkedin-color: #128fc3;

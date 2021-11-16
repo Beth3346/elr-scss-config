@@ -1,0 +1,30 @@
+@import "src/main";
+
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.subheading {
+  font-size: 24px;
+  font-weight: 900;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.demo-content {
+  position: relative;
+  padding: 20px 0;
+}
