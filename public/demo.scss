@@ -1,4 +1,21 @@
 @import "src/main";
+@import "elr-scss-reset/src/main";
+
+@include elr-reset;
+
+* {
+  font-family: Roboto;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 100%;
+}
 
 .wrapper {
   max-width: 1000px;
@@ -26,5 +43,289 @@
 
 .demo-content {
   position: relative;
-  padding: 20px 0;
+  padding: 20px 0 48px;
+}
+
+ul {
+  margin-top: 24px;
+
+  li {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    list-style-position: inside;
+    font-size: 18px;
+  }
+}
+
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 768px;
+  list-style: none;
+}
+
+.color-swatch {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  font-size: 14px;
+  // text-align: center;
+  box-shadow: $shadow;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-eggshell {
+  background-color: $eggshell;
+}
+
+.bg-lightestgray {
+  background-color: $lightest-gray;
+}
+
+.bg-lightgray {
+  background-color: $light-gray;
+}
+
+.bg-gray {
+  background-color: $gray;
+  color: $text-color-light;
+}
+
+.bg-darkgray {
+  background-color: $dark-gray;
+  color: $text-color-light;
+}
+
+.bg-black {
+  background-color: $black;
+  color: $text-color-light;
+}
+
+.bg-seafoam {
+  background-color: $seafoam;
+  color: $text-color-light;
+}
+
+.bg-blue {
+  background-color: $blue;
+  color: $text-color-light;
+}
+
+.bg-darkblue {
+  background-color: $dark-blue;
+  color: $text-color-light;
+}
+
+.bg-lightblue {
+  background-color: $light-blue;
+}
+
+.bg-lightestblue {
+  background-color: $lightest-blue;
+}
+
+.bg-salmon {
+  background-color: $salmon;
+  color: $text-color-light;
+}
+
+.bg-pink {
+  background-color: $pink;
+  color: $text-color-light;
+}
+
+.bg-lightpink {
+  background-color: $light-pink;
+}
+
+.bg-magenta {
+  background-color: $magenta;
+  color: $text-color-light;
+}
+
+.bg-orange {
+  background-color: $orange;
+  color: $text-color-light;
+}
+
+.bg-taupe {
+  background-color: $taupe;
+}
+
+.bg-text {
+  background-color: $text-color;
+  color: $text-color-light;
+}
+
+.bg-textlight {
+  background-color: $text-color-light;
+}
+
+.bg-link {
+  background-color: $link-color;
+  color: $text-color-light;
+}
+
+.bg-primary {
+  background-color: $primary-color;
+  color: $text-color-light;
+}
+
+.bg-primarydark {
+  background-color: $primary-color-dark;
+  color: $text-color-light;
+}
+
+.bg-primarylight {
+  background-color: $primary-color-light;
+}
+
+.bg-primarytextlight {
+  background-color: $primary-text-light;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
+  color: $text-color-light;
+}
+
+.bg-secondarydark {
+  background-color: $secondary-color-dark;
+  color: $text-color-light;
+}
+
+.bg-secondarylight {
+  background-color: $secondary-color-light;
+  color: $text-color-light;
+}
+
+.bg-tertiary {
+  background-color: $tertiary-color;
+  color: $text-color-light;
+}
+
+.bg-danger {
+  background-color: $danger-color;
+  color: $text-color-light;
+}
+
+.bg-warning {
+  background-color: $warning-color;
+  color: $text-color-light;
+}
+
+.bg-success {
+  background-color: $success-color;
+  color: $text-color-light;
+}
+
+.bg-muted {
+  background-color: $muted-color;
+  color: $text-color-light;
+}
+
+.bg-dangerlight {
+  color: $danger-color;
+  background-color: $danger-background-color;
+}
+
+.bg-warninglight {
+  color: $warning-color;
+  background-color: $warning-background-color;
+}
+
+.bg-successlight {
+  color: $success-color;
+  background-color: $success-background-color;
+}
+
+.bg-mutedlight {
+  color: $muted-color;
+  background-color: $muted-background-color;
+}
+
+.bg-gradient {
+  background: $primary-gradient;
+  color: $text-color-light;
+}
+
+.bg-gradientsecondary {
+  background: $secondary-gradient;
+  color: $text-color-light;
+}
+
+.text-sans {
+  font-family: $sans-font !important;
+}
+
+.text-serif {
+  font-family: $serif-font !important;
+}
+
+.text-rounded {
+  font-family: $rounded-font !important;
+}
+
+.text-mono {
+  font-family: $mono-font !important;
+}
+
+.border-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    font-size: 14px;
+  }
+}
+
+.border {
+  border: $border;
+}
+
+.border-dark {
+  border: $border-dark;
+}
+
+.border-light {
+  border: $border-light;
+}
+
+.border-primary {
+  border: $border-primary;
+}
+
+.border-danger {
+  border: $border-danger;
+}
+
+.border-success {
+  border: $border-success;
+}
+
+.border-warning {
+  border: $border-warning;
+}
+
+.border-muted {
+  border: $border-muted;
 }

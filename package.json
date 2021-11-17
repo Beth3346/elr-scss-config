@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "elr-scss-animations": "0.0.9",
-    "elr-scss-functions": "1.1.6"
+    "elr-scss-functions": "1.1.6",
+    "elr-scss-reset": "^0.0.7"
   }
 }

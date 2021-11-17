@@ -7,27 +7,28 @@ $white: #fff;
 $eggshell: #f2f2f2;
 $lightest-gray: #eee;
 $light-gray: #ddd;
+$gray: #999;
+$dark-gray: #666;
+$black: #333;
 // $gray: #ddd;
 $seafoam: #3fb8af;
 $blue: #1976d2;
 $dark-blue: #005ebd;
+$light-blue: lighten($blue, 15%);
+$lightest-blue: #dfecf9;
 $salmon: #ff9e9d;
 $pink: #f81190;
 $light-pink: #ffc3e4;
 $magenta: #bf10a0;
 $orange: #e0432b;
 $taupe: #dad8a7;
-$black: #333;
-$dark-gray: #999;
-$gray: #666;
-$light-blue: lighten($blue, 15%);
-$lightest-blue: #dfecf9;
 
 $background-color: $lightest-gray;
 $main-background: $white;
 $background-light: $lightest-blue;
 
 $primary-gradient: linear-gradient($light-blue, $seafoam);
+$secondary-gradient: linear-gradient($pink, $salmon);
 
 // *: fonts
 $roboto: "Roboto", sans-serif;
@@ -41,7 +42,7 @@ $noto-serif: "Noto Serif", serif;
 $sans-font: $roboto;
 $serif-font: $noto-serif;
 $rounded-font: $nunito;
-$mono-font: $source-code;
+$mono-font: "Fira Code";
 
 // typography
 
@@ -86,7 +87,7 @@ $warning-background-color: #fff2da;
 $success-color: #337234;
 $success-background-color: #dcf3dc;
 
-$info-color: #1daaf0;
+$info-color: $blue;
 
 $muted-color: $gray;
 $muted-background-color: $eggshell;
@@ -118,7 +119,7 @@ $border-radius: 5px;
 $header-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 
 $instagram-color: #5380a6;
-$google-plus-color: #dd4b38;
+$google-color: #dd4b38;
 $twitter-color: #25aae1;
 $pinterest-color: #ce2128;
 $facebook-color: #3c5b9a;
