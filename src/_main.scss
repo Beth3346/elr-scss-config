@@ -92,7 +92,9 @@ $info-color: $blue;
 $muted-color: $gray;
 $muted-background-color: $eggshell;
 
-$border: 1px solid $light-gray;
+$border-color: $light-gray;
+
+$border: 1px solid $border-color;
 $border-dark: 1px solid $text-color;
 $border-light: 1px solid $lightest-gray;
 $border-primary: 1px solid $primary-color;
