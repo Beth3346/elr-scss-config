@@ -23,12 +23,12 @@ $magenta: #bf10a0;
 $orange: #e0432b;
 $taupe: #dad8a7;
 
-$background-color: $lightest-gray;
-$main-background: $white;
-$background-light: $lightest-blue;
-
-$primary-gradient: linear-gradient($light-blue, $seafoam);
-$secondary-gradient: linear-gradient($pink, $salmon);
+$instagram-color: #5380a6;
+$google-color: #dd4b38;
+$twitter-color: #25aae1;
+$pinterest-color: #ce2128;
+$facebook-color: #3c5b9a;
+$linkedin-color: #128fc3;
 
 // *: fonts
 $roboto: "Roboto", sans-serif;
@@ -37,6 +37,13 @@ $nunito: "Nunito", sans-serif;
 $playfair: "Playfair Display", serif;
 $source-code: "Source Code Pro", monospace;
 $noto-serif: "Noto Serif", serif;
+
+$background-color: $lightest-gray;
+$main-background: $white;
+$background-light: $lightest-blue;
+
+$primary-gradient: linear-gradient($light-blue, $seafoam);
+$secondary-gradient: linear-gradient($pink, $salmon);
 // font faces
 
 $sans-font: $roboto;
@@ -123,10 +130,3 @@ $text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 $focus-shadow: 0 0 2px $link-color;
 $border-radius: 5px;
 $header-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-
-$instagram-color: #5380a6;
-$google-color: #dd4b38;
-$twitter-color: #25aae1;
-$pinterest-color: #ce2128;
-$facebook-color: #3c5b9a;
-$linkedin-color: #128fc3;
