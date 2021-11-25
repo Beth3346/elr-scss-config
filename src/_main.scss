@@ -97,11 +97,15 @@ $border-color: $light-gray;
 $border: 1px solid $border-color;
 $border-dark: 1px solid $text-color;
 $border-light: 1px solid $lightest-gray;
+
 $border-primary: 1px solid $primary-color;
+$border-secondary: 1px solid $secondary-color;
+
 $border-success: 1px solid $success-color;
 $border-danger: 1px solid $danger-color;
 $border-warning: 1px solid $warning-color;
 $border-muted: 1px solid $muted-color;
+$border-link: 1px solid $link-color;
 
 $content-width: 1400px;
 $max-width: 1400px;
