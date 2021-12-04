@@ -17,7 +17,8 @@ $dark-blue: #005ebd;
 $light-blue: lighten($blue, 15%);
 $lightest-blue: #dfecf9;
 $salmon: #ff9e9d;
-$pink: #f81190;
+$pink: #fd008b;
+$dark-pink: #db0079;
 $light-pink: #ffc3e4;
 $magenta: #bf10a0;
 $orange: #e0432b;
@@ -80,7 +81,7 @@ $primary-color-light: $light-blue;
 $primary-text-light: $background-light;
 
 $secondary-color: $pink;
-$secondary-color-dark: darken($secondary-color, 5%);
+$secondary-color-dark: $dark-pink;
 $secondary-color-light: desaturate(lighten($secondary-color, 10%), 30%);
 
 $tertiary-color: $seafoam;
