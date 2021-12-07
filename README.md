@@ -25,7 +25,7 @@ $lighter-gray: #ddd;
 $light-gray: #ccc;
 $gray: #999;
 $dark-gray: #666;
-$black: #333;
+$black: #111;
 $seafoam: #3fb8af;
 $blue: #1976d2;
 $dark-blue: #005ebd;
@@ -33,6 +33,7 @@ $light-blue: lighten($blue, 15%);
 $lightest-blue: #dfecf9;
 $salmon: #ff9e9d;
 $pink: #f81190;
+$dark-pink: #e3037e;
 $light-pink: #ffc3e4;
 $magenta: #bf10a0;
 $orange: #e0432b;
@@ -159,8 +160,8 @@ $primary-color: $blue;
 $primary-color-light: $light-blue;
 $primary-text-light: $background-light;
 $secondary-color: $pink;
-$secondary-color-dark: darken($secondary-color, 5%);
-$secondary-color-light: desaturate(lighten($secondary-color, 10%), 30%);
+$secondary-color-dark: $dark-pink;
+$secondary-color-light: $light-pink;
 $tertiary-color: $seafoam;
 ```
 
