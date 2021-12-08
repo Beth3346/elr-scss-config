@@ -1,5 +1,7 @@
-# elr-scss-config
+# Default Site Config
 
+[![npm version](http://img.shields.io/npm/v/elr-scss-config.svg)](https://www.npmjs.org/package/elr-scss-config)
+[![Build Status](https://github.com/elr-scss-config/workflows/CI/badge.svg)](https://github.com/elr-scss-config/actions?workflow=CI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-scss-config.svg?style=flat)](https://npmjs.com/package/elr-scss-config)
 
@@ -11,6 +13,12 @@ Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't 
 
 ```sh
 npm install elr-scss-config
+```
+
+or
+
+```sh
+yarn add elr-scss-config
 ```
 
 ## Implementation
