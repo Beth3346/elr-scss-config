@@ -1,7 +1,7 @@
 # Default Site Config
 
 [![npm version](http://img.shields.io/npm/v/elr-scss-config.svg)](https://www.npmjs.org/package/elr-scss-config)
-[![Build Status](https://github.com/elr-scss-config/workflows/CI/badge.svg)](https://github.com/elr-scss-config/actions?workflow=CI)
+[![CI](https://github.com/Beth3346/elr-scss-config/actions/workflows/node.js.yml/badge.svg)](https://github.com/Beth3346/elr-scss-config/actions/workflows/node.js.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-scss-config.svg?style=flat)](https://npmjs.com/package/elr-scss-config)
 
